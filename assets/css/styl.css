@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(36, 37, 41);
+    display: flex;
+    justify-content: center;
+}
+
+.display{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+    width: 68%;
+}
+
+
+.play{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(99, 122, 235);
+    border: none;
+    position: absolute;
+    background: rgba(174, 237, 254, 95%);
+    padding: 1rem;
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-top: 90px;
+    box-shadow: 5px 0px 10px rgba(174, 237, 254, 50%), -5px 0px 10px rgba(174, 237, 254, 50%);
+    opacity: 0;
+    cursor: pointer;
+}

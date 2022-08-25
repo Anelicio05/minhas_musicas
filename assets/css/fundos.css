@@ -1,0 +1,50 @@
+.fundo {
+    background: url('https://www.maisgoias.com.br/cdn-cgi/image/fit=contain,width=960,quality=90,format=auto/https://uploads.maisgoias.com.br/2022/04/878a50bd-gusttavo-lima-aparecida-e-show-e1653918006835.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 15rem;
+    width: 15rem;
+    cursor: pointer;
+    border-radius: 10px;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+.fundo:nth-child(2) {
+    background: url('https://i.ytimg.com/vi/XpNWBVtXFsI/maxresdefault.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.fundo:nth-child(3) {
+    background: url('https://i.ytimg.com/vi/aO95jeDC92I/maxresdefault.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.fundo:nth-child(4) {
+    background: url('https://images.suamusica.com.br/GdNpIQGvR_a1Viw5c18mG_YY8PE=/500x500/43132277/3240603/cd_cover.png') no-repeat center;
+    background-size: cover;
+}
+
+.fundo:nth-child(5) {
+    background: url('https://i.scdn.co/image/ab67616d0000b2735722ad4a2e4a8bc1de33dab1') no-repeat center;
+    background-size: cover;
+}
+
+.fundo:nth-child(6) {
+    background: url('https://s2.glbimg.com/O_jf6pHSkO7p8zbd2hkYUKxYUmk=/0x0:1080x1080/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/L/J/vdB66DQEi7tZVZN0g1Jg/gusttavolima.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.fundo:hover:before {
+    content: '';
+    width: 15rem;
+    height: 15rem;
+    background: rgba(0, 0, 0, 70%);
+    position: absolute;
+    border-radius: 10px;
+}
+
+.fundo:hover .play {
+    opacity: 100%;
+}
