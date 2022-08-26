@@ -7,17 +7,31 @@
 
 body{
     background: rgb(36, 37, 41);
+    width: 100vw;
+}
+
+.cabecalho{
     display: flex;
     justify-content: center;
+    padding: 2rem;
+}
+
+.titulo{
+    color: white;
+    font-weight: bold;
 }
 
 .display{
     display: flex;
     justify-content: center;
-    margin-top: 5rem;
-    gap: 2rem;
+    width: 100%;
+}
+
+.cards{
+    display: flex;
     flex-wrap: wrap;
-    width: 68%;
+    max-width: 755px;
+    gap: 1rem;
 }
 
 
