@@ -7,31 +7,29 @@
 
 body{
     background: rgb(36, 37, 41);
-    width: 100vw;
 }
 
 .cabecalho{
-    display: flex;
-    justify-content: center;
-    padding: 2rem;
+    background: C;
 }
 
-.titulo{
-    color: white;
-    font-weight: bold;
+main{
+    background: rgb(36, 37, 41);
 }
 
 .display{
+    background: rgb(36, 37, 41);
     display: flex;
     justify-content: center;
-    width: 100%;
 }
 
 .cards{
     display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    gap: 2rem;
     flex-wrap: wrap;
-    max-width: 755px;
-    gap: 1rem;
+    width: 68%;
 }
 
 
@@ -49,4 +47,9 @@ body{
     box-shadow: 5px 0px 10px rgba(174, 237, 254, 50%), -5px 0px 10px rgba(174, 237, 254, 50%);
     opacity: 0;
     cursor: pointer;
+}
+
+.rodape{
+    padding: 2rem;
+    background: rgb(36, 37, 41);
 }
